@@ -581,8 +581,6 @@ GEM
       json (>= 1.8)
       nokogiri (~> 1.5)
       optimist (~> 3.0)
-    rdoc (3.12.2)
-      json (~> 1.4)
     redcarpet (3.5.0)
     ref (2.0.0)
     request_store (1.4.1)
@@ -756,8 +754,8 @@ DEPENDENCIES
   deface
   delayed_job_active_record
   delayed_job_web
-  devise (~> 2.2.5)
-  devise-encryptable (= 0.2.0)
+  devise (~> 3.0.1)
+  devise-encryptable (= 0.1.2)
   diffy
   eventmachine (>= 1.2.3)
   factory_bot_rails (= 4.8.2)
